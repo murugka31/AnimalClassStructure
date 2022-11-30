@@ -2,11 +2,11 @@ package simbirsoft.emurugova;
 
 public class Veterinarian {
 
-    void sayHello(Animal animal){
+    public void sayHello(Animal animal){
         System.out.println("Привет " + animal.getNickname() + ".");
     }
 
-    void checkState(Animal animal) {
+    public void checkState(Animal animal) {
       if(animal.getState().equals("Болен")) {
           System.out.println("Ты болен. Мы тебя полечим.");
       } else if (animal.getState().equals("Не болен")) {

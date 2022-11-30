@@ -13,7 +13,7 @@ public class Animal {
         this.state = state;
     }
 
-    void sayOwner() {
+    public void sayOwner() {
         System.out.println("Мой хозяин " + getOwner() + ".");
     }
 

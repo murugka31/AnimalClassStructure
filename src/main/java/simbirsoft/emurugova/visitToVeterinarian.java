@@ -2,7 +2,8 @@ package simbirsoft.emurugova;
 
 public class visitToVeterinarian {
 
-static Veterinarian veterinarian = new Veterinarian();
+    public static Veterinarian veterinarian = new Veterinarian();
+
     public static void main(String[] args) {
         Dog dog = new Dog("Шарик", "Иван", "Болен");
         Cat cat = new Cat("Барсик", "Анна", "Не болен");
