@@ -18,5 +18,4 @@ static Veterinarian veterinarian = new Veterinarian();
         veterinarian.sayHello(dog);
         veterinarian.checkState(dog);
     }
-
 }
