@@ -1,6 +1,6 @@
 package simbirsoft.emurugova;
 
-public class visitToVeterinarian {
+public class VisitToVeterinarian {
 
     public static Veterinarian veterinarian = new Veterinarian();
 
