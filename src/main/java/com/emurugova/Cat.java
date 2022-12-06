@@ -1,4 +1,4 @@
-package simbirsoft.emurugova;
+package com.emurugova;
 
 public class Cat extends Animal{
 
