@@ -21,10 +21,6 @@ public class Animal {
         return city;
     }
 
-    public static void setCity(String city) {
-        Animal.city = city;
-    }
-
     public String getNickname() {
         return nickname;
     }
